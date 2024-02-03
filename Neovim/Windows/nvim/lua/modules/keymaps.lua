@@ -10,6 +10,7 @@ vim.api.nvim_set_keymap('v', 'zz', '<Esc>', { noremap  = true })
 
 -- Command mode
 vim.api.nvim_set_keymap('c', 'zz', '<Esc>', { noremap  = true })
+
 vim.api.nvim_set_keymap('c', '<C-p>', '%s/', { noremap  = true })           --replace pattern     
 vim.api.nvim_set_keymap('c', 'ww', 'wq', { noremap  = true })
 vim.api.nvim_set_keymap('c', 'ö', 'q!', { noremap  = true })
